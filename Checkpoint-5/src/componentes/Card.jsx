@@ -5,8 +5,7 @@ function Card({id, name, image, status}) {
         <div className="Card">
             <img src={image} alt={name}/>
             <h3>{name}</h3>
-            <p>{status}</p>
-            //ACHEI O ERROO ERA CRASE AO INVES DE ASPAS 
+            <p>{status}</p> 
             <Link to={`/Details/${id}`}>Detalhes</Link>
 
         </div>
