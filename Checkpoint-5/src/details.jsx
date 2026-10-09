@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { getCharacter, createPost } from "./services/API";
 import Input from "./componentes/Input";
-import button from "./componentes/Button";
+import Button from "./componentes/Button";
 import loading from "./componentes/loading";
 import ErrorMessage from "./componentes/ErrorMessage";
 
