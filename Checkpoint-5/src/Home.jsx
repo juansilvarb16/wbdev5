@@ -1,10 +1,10 @@
 import { useCallback, useEffect, useMemo, useState } from "react";
-// Alterado de ../ para ./
+// Alterado de ../ para ./ anta aqui q ta errado
 import { getCharacters } from "./services/api";
 import Input from "./componentes/Input";
 import Button from "./componentes/Button";
 import List from "./componentes/List";
-import loading from "./componentes/loading";
+import Loading from "./componentes/Loading";
 import ErrorMessage from "./componentes/ErrorMessage";
 
 

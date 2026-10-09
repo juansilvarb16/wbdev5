@@ -2,9 +2,9 @@ import { Link } from "react-router-dom";
 
 function Header() {
     return (
-        <Header>
-            <h1> <link to="/">Explorando Personagem</link> </h1>
-        </Header>
+        <header>
+            <h1> <Link to="/">Explorando Personagem</Link> </h1>
+        </header>
     );
 }
 

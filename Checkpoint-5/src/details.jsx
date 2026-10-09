@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import { getCharacter, createPost } from "./services/API";
+import { getCharacter, createPost } from "./services/api";
 import Input from "./componentes/Input";
 import Button from "./componentes/Button";
-import loading from "./componentes/loading";
+import Loading from "./componentes/Loading";
 import ErrorMessage from "./componentes/ErrorMessage";
 
 export default function Details() {
@@ -27,13 +27,13 @@ export default function Details() {
 
         createPost({ title: char.name, body: comment })
             .then((r) => {
-                setMsg(`Enviado! id ${r.id}`);
+                setMsg(`Comentario Enviado! ${r.id}`);
                 setComment("");
             })
             .catch(() => setMsg("Erro ao enviar."));
     }
 
-    if (loading) return <Loading />;
+    if (loading) return <Loading/>;
     if (error || !char)
         return <ErrorMessage message={error || "Falha ao carregar"} />;
 

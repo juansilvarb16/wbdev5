@@ -1,4 +1,4 @@
-function Input({props}){
+function Input(props){
     return <input {...props} />;
 }
 
