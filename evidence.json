@@ -1,0 +1,155 @@
+{
+  "turma": "1ESPU",
+  "project": "juansilvarb16-wbdev5",
+  "hasGit": true,
+  "nextRoots": [],
+  "components": [
+    {
+      "name": "App",
+      "file": "Checkpoint-5/src/App.jsx",
+      "inComponents": false
+    },
+    {
+      "name": "Home",
+      "file": "Checkpoint-5/src/Home.jsx",
+      "inComponents": false
+    },
+    {
+      "name": "Button",
+      "file": "Checkpoint-5/src/componentes/Button.jsx",
+      "inComponents": true
+    },
+    {
+      "name": "Card",
+      "file": "Checkpoint-5/src/componentes/Card.jsx",
+      "inComponents": true
+    },
+    {
+      "name": "ErrorMessage",
+      "file": "Checkpoint-5/src/componentes/ErrorMessage.jsx",
+      "inComponents": true
+    },
+    {
+      "name": "Header",
+      "file": "Checkpoint-5/src/componentes/Header.jsx",
+      "inComponents": true
+    },
+    {
+      "name": "Input",
+      "file": "Checkpoint-5/src/componentes/Input.jsx",
+      "inComponents": true
+    },
+    {
+      "name": "List",
+      "file": "Checkpoint-5/src/componentes/List.jsx",
+      "inComponents": true
+    },
+    {
+      "name": "Details",
+      "file": "Checkpoint-5/src/details.jsx",
+      "inComponents": false
+    }
+  ],
+  "componentCount": 9,
+  "componentsInComponentsFolder": 6,
+  "axiosHits": [
+    "Checkpoint-5/package-lock.json:11: \"axios\": \"^1.20.0\",",
+    "Checkpoint-5/package-lock.json:979: \"node_modules/axios\": {",
+    "Checkpoint-5/package-lock.json:981: \"resolved\": \"https://registry.npmjs.org/axios/-/axios-1.20.0.tgz\",",
+    "Checkpoint-5/package.json:13: \"axios\": \"^1.20.0\",",
+    "Checkpoint-5/src/services/API.js:1: import axios from \"axios\";",
+    "Checkpoint-5/src/services/API.js:3: const api = axios.create({",
+    "Checkpoint-5/src/services/API.js:18: const response = await axios.post("
+  ],
+  "fetchHits": [],
+  "useStateHits": [
+    "Checkpoint-5/src/Home.jsx:1: import { useCallback, useEffect, useMemo, useState } from \"react\";",
+    "Checkpoint-5/src/Home.jsx:19: const [characters, setCharacters] = useState([]);",
+    "Checkpoint-5/src/Home.jsx:20: const [searchTerm, setSearchTerm] = useState(\"\");",
+    "Checkpoint-5/src/Home.jsx:21: const [loading, setLoading] = useState(true);",
+    "Checkpoint-5/src/Home.jsx:22: const [error, setError] = useState(\"\");",
+    "Checkpoint-5/src/details.jsx:1: import { useEffect, useState } from \"react\";",
+    "Checkpoint-5/src/details.jsx:11: const [char, setChar] = useState(null);",
+    "Checkpoint-5/src/details.jsx:12: const [loading, setLoading] = useState(true);",
+    "Checkpoint-5/src/details.jsx:13: const [error, setError] = useState(\"\");",
+    "Checkpoint-5/src/details.jsx:14: const [comment, setComment] = useState(\"\");",
+    "Checkpoint-5/src/details.jsx:15: const [msg, setMsg] = useState(\"\");"
+  ],
+  "useEffectHits": [
+    "Checkpoint-5/src/Home.jsx:1: import { useCallback, useEffect, useMemo, useState } from \"react\";",
+    "Checkpoint-5/src/Home.jsx:24: useEffect(() => {",
+    "Checkpoint-5/src/details.jsx:1: import { useEffect, useState } from \"react\";",
+    "Checkpoint-5/src/details.jsx:17: useEffect(() => {"
+  ],
+  "useRouterHits": [],
+  "linkHits": [
+    "Checkpoint-5/src/componentes/Card.jsx:9: <Link to={`/Details/${id}`}>Detalhes</Link>",
+    "Checkpoint-5/src/componentes/Header.jsx:6: <h1> <Link to=\"/\">Explorando Personagem</Link> </h1>",
+    "Checkpoint-5/src/details.jsx:42: <Link to=\"/\">Voltar</Link>"
+  ],
+  "useClientHits": [],
+  "useMemoHits": [
+    "Checkpoint-5/src/Home.jsx:1: import { useCallback, useEffect, useMemo, useState } from \"react\";",
+    "Checkpoint-5/src/Home.jsx:47: const filteredCharacters = useMemo(() => {"
+  ],
+  "useCallbackHits": [
+    "Checkpoint-5/src/Home.jsx:1: import { useCallback, useEffect, useMemo, useState } from \"react\";",
+    "Checkpoint-5/src/Home.jsx:53: const clearSearch = useCallback(() => {"
+  ],
+  "useRefHits": [],
+  "localStorageHits": [],
+  "loadingHints": [
+    "Checkpoint-5/src/Home.jsx:7: import Loading from \"./componentes/Loading\";",
+    "Checkpoint-5/src/Home.jsx:21: const [loading, setLoading] = useState(true);",
+    "Checkpoint-5/src/Home.jsx:72: {loading && <Loading />}",
+    "Checkpoint-5/src/Home.jsx:74: {!loading && !error && <List characters={filteredCharacters} />}",
+    "Checkpoint-5/src/componentes/loading.jsx:1: function Loading() {",
+    "Checkpoint-5/src/componentes/loading.jsx:3: <h1>Loading...</h1>",
+    "Checkpoint-5/src/componentes/loading.jsx:7: export default Loading;",
+    "Checkpoint-5/src/details.jsx:6: import Loading from \"./componentes/Loading\";",
+    "Checkpoint-5/src/details.jsx:12: const [loading, setLoading] = useState(true);",
+    "Checkpoint-5/src/details.jsx:36: if (loading) return <Loading/>;"
+  ],
+  "errorHints": [
+    "Checkpoint-5/package-lock.json:1365: \"zod-validation-error\": \"^3.5.0 || ^4.0.0\"",
+    "Checkpoint-5/package-lock.json:2828: \"node_modules/zod-validation-error\": {",
+    "Checkpoint-5/package-lock.json:2830: \"resolved\": \"https://registry.npmjs.org/zod-validation-error/-/zod-validation-error-4.0.2.tgz\",",
+    "Checkpoint-5/src/Home.jsx:22: const [error, setError] = useState(\"\");",
+    "Checkpoint-5/src/Home.jsx:39: setError(\"Erro ao carregar.\");",
+    "Checkpoint-5/src/Home.jsx:73: {error && <ErrorMessage message={error} />}",
+    "Checkpoint-5/src/Home.jsx:74: {!loading && !error && <List characters={filteredCharacters} />}",
+    "Checkpoint-5/src/componentes/ErrorMessage.jsx:3: <p className=\"Erro\">{message}</p>",
+    "Checkpoint-5/src/details.jsx:13: const [error, setError] = useState(\"\");",
+    "Checkpoint-5/src/details.jsx:20: .catch(() => setError(\"Erro\"))",
+    "Checkpoint-5/src/details.jsx:33: .catch(() => setMsg(\"Erro ao enviar.\"));",
+    "Checkpoint-5/src/details.jsx:37: if (error || !char)",
+    "Checkpoint-5/src/details.jsx:38: return <ErrorMessage message={error || \"Falha ao carregar\"} />;"
+  ],
+  "searchHints": [
+    "Checkpoint-5/src/Home.jsx:48: return characters.filter((character) =>"
+  ],
+  "dynamicRoutes": [],
+  "honeypots": [],
+  "reduxVueClass": [],
+  "readmes": [
+    {
+      "path": "Checkpoint-5/README.md",
+      "preview": "# React + Vite\n\nThis template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.\n\nCurrently, two official plugins are available:\n\n- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)\n- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)\n\n## React Compiler\n\nThe React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).\n\n## Expanding the ESLint configuration\n\nIf you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.\n"
+    }
+  ],
+  "participantes": [
+    {
+      "path": "participantes.md",
+      "preview": "Daniel Muniz \nrm573683\n\nGabriell Santos\nrm5741\n\nJuan Silva Ribeiro \nrm574190"
+    }
+  ],
+  "vercelLinks": [],
+  "apiHints": [],
+  "git": {
+    "commitCount": 15,
+    "branch": "main",
+    "remote": "origin\thttps://github.com/juansilvarb16/wbdev5 (fetch)\norigin\thttps://github.com/juansilvarb16/wbdev5 (push)",
+    "shortlog": "8\tLaboratório FIAP <labsfiap@fiap.com.br>\n     5\tJuan Silva Ribeiro <juansilvarb16@gmail.com>\n     1\tGabriell <gabriellsantos860@gmail.com>\n     1\tJuan <juansilvarb16@gmail.com>",
+    "logOneline": "fc42888 Atualizar o participantes.md\n3aed122 comentario lugar errado\n50f0b18 corrigi apenas erros de sintaxe e bibliotecas\n7808cdd App\n49dd359 Merge branch 'main' of https://github.com/juansilvarb16/wbdev5\n07ce4bd home arrumado\n1c0857b ajustando\n6aca831 details\n1a3217d componentes finalizados\nc74dccd troquei a API\n2aae324 Merge branch 'main' of https://github.com/juansilvarb16/wbdev5\n9b84e1f home\n3468ece API\ne9fc2ad 3 componentes\n7dd1fe7 first commt"
+  }
+}

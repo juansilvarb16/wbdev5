@@ -1,0 +1,58 @@
+# CONTEXTO GIT - 1ESPU/juansilvarb16-wbdev5
+# Path: /Volumes/externo/FIAP/corretor-avaliacoes/turmas/2026/checkpoint-5/1ESPU/juansilvarb16-wbdev5
+
+## git remote -v
+origin	https://github.com/juansilvarb16/wbdev5 (fetch)
+origin	https://github.com/juansilvarb16/wbdev5 (push)
+
+## git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+## git log --oneline -50 (default branch)
+fc42888 Atualizar o participantes.md
+3aed122 comentario lugar errado
+50f0b18 corrigi apenas erros de sintaxe e bibliotecas
+7808cdd App
+49dd359 Merge branch 'main' of https://github.com/juansilvarb16/wbdev5
+07ce4bd home arrumado
+1c0857b ajustando
+6aca831 details
+1a3217d componentes finalizados
+c74dccd troquei a API
+2aae324 Merge branch 'main' of https://github.com/juansilvarb16/wbdev5
+9b84e1f home
+3468ece API
+e9fc2ad 3 componentes
+7dd1fe7 first commt
+
+## git shortlog -sn -e (HEAD)
+8	Laboratório FIAP <labsfiap@fiap.com.br>
+     5	Juan Silva Ribeiro <juansilvarb16@gmail.com>
+     1	Gabriell <gabriellsantos860@gmail.com>
+     1	Juan <juansilvarb16@gmail.com>
+
+## git log --oneline --graph --all -20
+* fc42888 Atualizar o participantes.md
+* 3aed122 comentario lugar errado
+* 50f0b18 corrigi apenas erros de sintaxe e bibliotecas
+* 7808cdd App
+*   49dd359 Merge branch 'main' of https://github.com/juansilvarb16/wbdev5
+|\  
+| * 1c0857b ajustando
+| * 6aca831 details
+| * 1a3217d componentes finalizados
+| * c74dccd troquei a API
+* | 07ce4bd home arrumado
+|/  
+*   2aae324 Merge branch 'main' of https://github.com/juansilvarb16/wbdev5
+|\  
+| * 3468ece API
+* | 9b84e1f home
+|/  
+* e9fc2ad 3 componentes
+* 7dd1fe7 first commt
+
+## contagem de commits HEAD
+15

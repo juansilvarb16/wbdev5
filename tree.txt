@@ -1,0 +1,28 @@
+Checkpoint-5/
+Checkpoint-5/.gitignore (253b)
+Checkpoint-5/eslint.config.js (568b)
+Checkpoint-5/index.html (365b)
+Checkpoint-5/package-lock.json (97497b)
+Checkpoint-5/package.json (669b)
+Checkpoint-5/README.md (1027b)
+Checkpoint-5/src/
+Checkpoint-5/src/App.css (0b)
+Checkpoint-5/src/App.jsx (474b)
+Checkpoint-5/src/componentes/
+Checkpoint-5/src/componentes/Button.jsx (163b)
+Checkpoint-5/src/componentes/Card.jsx (332b)
+Checkpoint-5/src/componentes/ErrorMessage.jsx (130b)
+Checkpoint-5/src/componentes/Header.jsx (208b)
+Checkpoint-5/src/componentes/Input.jsx (80b)
+Checkpoint-5/src/componentes/List.jsx (367b)
+Checkpoint-5/src/componentes/loading.jsx (95b)
+Checkpoint-5/src/details.jsx (1819b)
+Checkpoint-5/src/Home.jsx (1788b)
+Checkpoint-5/src/index.css (258b)
+Checkpoint-5/src/main.jsx (229b)
+Checkpoint-5/src/services/
+Checkpoint-5/src/services/API.js (554b)
+Checkpoint-5/vite.config.js (161b)
+gitcontext.txt (1658b)
+package-lock.json (85b)
+participantes.md (76b)
