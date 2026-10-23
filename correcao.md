@@ -111,6 +111,8 @@ Total final: 9,00
 **Penalizações:** nenhuma (`participantes.md` presente).
 **Sinalizadores anti-cola / IA:** nenhum honeypot; destaque: stack Vite em vez de Next (já zerou C1).
 
+**Integrantes (nota 9,00 para o grupo):** Daniel Muniz (RM 573683), Gabriell Santos da Silva (RM 574134), Juan Silva Ribeiro (RM 574190). Gabriell constava no `participantes.md` com RM incompleto (`rm5741`); RM corrigido para 574134 e nota atribuída.
+
 ---
 
 ## CONTEXTO GIT
